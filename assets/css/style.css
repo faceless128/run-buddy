@@ -1,0 +1,44 @@
+/* remove all margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* style for body */
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }  
+  /* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+
+  /* style header h1 */
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+  
+  /* style header */
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  /* algn header nav to the right */
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  /* make header nav inline */
+  header nav ul li {
+    display: inline;
+    font-weight: lighter;
+    font-size: 22px;
+  }
