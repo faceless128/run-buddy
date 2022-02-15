@@ -60,11 +60,13 @@ footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* make footer h2 inline */
 footer h2 {
-  display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
@@ -72,7 +74,6 @@ footer h2 {
 
 /* right align div for privacy policy */
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
