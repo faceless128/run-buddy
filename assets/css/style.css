@@ -131,10 +131,11 @@ section {
   font-size: 55px;
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
-  display: inline-block;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border{
@@ -144,6 +145,7 @@ section {
 .secondary-border{
   border-color: #39a6b2;
 }
+
 /* intro style */
 .intro {
   text-align: center;
@@ -155,11 +157,11 @@ section {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* steps style */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -189,7 +191,6 @@ section {
 
 /* style for trainers section header */
 .trainers {
-  text-align: center;
 }
 
 /* style for trainer articles */
@@ -228,23 +229,15 @@ section {
   line-height: 1.3;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 /* style for reach out */
 .contact {
- text-align: center;
  background: #024e76;
  }
 
 .contact h2 {
   color: #fce138;
 }
+
 .contact-info div {
   width: 420px;
   display: inline-block;
@@ -301,4 +294,17 @@ footer div {
 /* style footer a */
 footer a {
   color: #024e76;
+}
+
+/* utility classes */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;  
 }
